@@ -394,7 +394,7 @@ body {
 .itinerary-wrap {
     display: flex;
     align-items: stretch;
-    gap: 0;
+    gap: 20px;
     width: 100%;
 }
 
@@ -403,6 +403,8 @@ body {
     overflow: hidden;
     min-height: 420px;
     flex: 1 1 0;
+    display: flex;
+    align-items: flex-end;
 }
 
 .feature-card {
@@ -412,10 +414,52 @@ body {
     flex-direction: column;
     min-width: 0;
     flex: 0 0 34%;
+    padding: 26px 24px;
 }
 
 .scenic-card {
     flex: 0 0 33%;
+    color: #fff;
+    padding: 26px 24px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scenic-card:nth-child(2) {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.18)), url('images/Rectangle 36.png');
+}
+
+.scenic-card:nth-child(3) {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.18)), url('images/pexels-taryn-elliott-5214035.jpg');
+}
+
+.itinerary-copy {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.itinerary-copy span {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.itinerary-copy h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: clamp(28px, 2vw, 34px);
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.itinerary-copy p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.9);
 }
 
 .card-heart {
