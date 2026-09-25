@@ -696,3 +696,200 @@ ul li{
     }
 }
 
+
+#testimonials{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    padding-top: 180px;
+
+}
+
+.hh{
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgb(87, 83, 83);
+    font-size: 40px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+   
+}
+
+.two-img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left:80px ;
+    padding-right: 80px;
+    gap: 50px;
+}
+
+.sec{
+    width: 300px;
+    height: 500px;
+}
+
+.review{
+    border: #e93b06 solid;
+    width: 500px;
+    height: 470px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.line2{
+    width: 100px;
+}
+
+.lo{
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+
+.pic1{
+    width: 700px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.pic11{
+     width: 620px;
+    height: 300px;
+}
+
+.pic2{
+    width: 300px;
+    height: 300px;
+}
+
+.pic22{
+    width: 220px;
+    height: 300px;
+}
+
+#galleryy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    
+    width: 100%;
+}
+
+#all-gallery{
+    gap: 20px;
+}
+
+.our{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgb(87, 83, 83);
+    font-size: 40px;
+    padding-right: 1000px;
+    padding-bottom: 50px;
+   
+}
+
+#three-img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+#four-img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #e93b06;
+    height: 300px;
+    gap: 30px;
+    color: azure;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.para-main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    
+}
+
+ul li{
+    list-style: none;
+}
+
+.h11{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.line3{
+    width: 100%;
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.email-form input {
+    flex: 1;
+    padding: 14px 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;
+    outline: none;
+}
+
+.email-form input:focus {
+    border-color: #333;
+}
+
+.email-form button {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 2px;
+    background-color: #111;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.email-form button:hover {
+    background-color: #333;
+}
+
+#message {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
